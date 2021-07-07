@@ -1,14 +1,23 @@
 {
   "name": "fundaciondarwin-app",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wanaranjor/fundaciondarwin-app.git"
+  },
+  "author": {
+    "name": "Wilson Andrés Naranjo Romero",
+    "email": "wanaranjo@gmail.com",
+    "url": "https://wanaranjor.co"
+  },
   "scripts": {
     "dev:only": "svelte-kit dev",
     "build:only": "svelte-kit build",
     "preview": "svelte-kit preview",
     "tailwind:watch": "cross-env TAILWIND_MODE=watch cross-env NODE_ENV=development postcss src/styles/tailwind.pcss -o src/styles/app.css -w",
     "tailwind:build": "cross-env TAILWIND_MODE=build cross-env NODE_ENV=production  postcss src/styles/tailwind.pcss -o src/styles/app.css",
-    "dev": "concurrently \"yarn run dev:only\" \"yarn run tailwind:watch\"",
-    "build": "yarn run tailwind:build && yarn run build:only",
+    "dev": "concurrently \"pnpm run dev:only\" \"pnpm run tailwind:watch\"",
+    "build": "pnpm run tailwind:build && pnpm run build:only",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. ."
   },
@@ -24,7 +33,8 @@
     "prettier": "~2.2.1",
     "prettier-plugin-svelte": "^2.2.0",
     "svelte": "^3.34.0",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^2.2.4",
+    "@sveltejs/adapter-vercel": "next"
   },
   "type": "module",
   "dependencies": {

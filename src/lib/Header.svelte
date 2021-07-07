@@ -29,10 +29,10 @@
 			<div class="items-center lg:flex">
 				<div class="flex flex-col lg:flex-row lg:mx-6">
 					<a class="my-1 text-sm font-medium hover:text-indigo-500 lg:mx-4 lg:my-0" href="/"
-						>Quienes Somos</a
+						>Quiénes Somos</a
 					>
 					<a class="my-1 text-sm font-medium hover:text-indigo-500 lg:mx-4 lg:my-0" href="/"
-						>Ideologia</a
+						>Ideología</a
 					>
 					<a class="my-1 text-sm font-medium hover:text-indigo-500 lg:mx-4 lg:my-0" href="/"
 						>Transparencia</a
