@@ -13,9 +13,9 @@
 			</p>
 		</div>
 		<div
-			class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+			class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center justify-center"
 		>
-			<img class="object-cover object-center rounded" alt="kids1.webp" src="kids1.webp" />
+			<img class="object-cover object-center rounded" alt="ideologia.webp" src="ideologia.webp" />
 		</div>
 	</div>
 </section>
